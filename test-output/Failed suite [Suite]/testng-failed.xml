@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestClassSocialMediaLinks(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TCB2G70006_Instagram"/>
+          <include name="TCB2G70006_Twitter"/>
+          <include name="quitBrowser"/>
+          <include name="TCB2G70006_FaceBook"/>
+          <include name="ValidateSocialMediaLinksTCB2G70006"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks -->
+    </classes>
+  </test> <!-- TestClassSocialMediaLinks(failed)(failed) -->
+  <test thread-count="3" parallel="tests" name="TestClassAdminApproval(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminApproval">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="VerifyApproveWithoutEmpTypeTCB2G70034"/>
+          <include name="quitBrowser"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAdminApproval -->
+    </classes>
+  </test> <!-- TestClassAdminApproval(failed)(failed) -->
+  <test thread-count="3" parallel="tests" name="TestClassSignup(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassSignup">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+          <include name="onSetup"/>
+          <include name="VerifySignUpwithoutCourseTCB2G70023"/>
+          <include name="ListCourseTCB2G70013"/>
+        </methods>
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassSignup -->
+    </classes>
+  </test> <!-- TestClassSignup(failed)(failed) -->
+  <test thread-count="3" parallel="tests" name="TestClassEditTrainerProfile(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+          <include name="VerifyEditPersonalDetailsPageTCB2G70071A"/>
+          <include name="TrainerLogin"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile -->
+    </classes>
+  </test> <!-- TestClassEditTrainerProfile(failed)(failed) -->
+  <test thread-count="3" parallel="tests" name="TestClassTrainerInformation(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+          <include name="onSetup"/>
+          <include name="VerifyPhotoDisplayTCB2G70070"/>
+        </methods>
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow -->
+    </classes>
+  </test> <!-- TestClassTrainerInformation(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

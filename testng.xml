@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+<test thread-count="5" name="TestClassHomePageLinks">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassHomePageLinks"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassSocialMediaLinks">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassSignup">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassSignup"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassAdminLogin">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminLogin"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassAdminApproval">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminApproval"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="TestClassAllocate">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAllocate"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassAllocateTrainer">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassViewAllocation">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassViewAllocation"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="TestClassAdminLogout">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminLogout"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test thread-count="5" name="TestClassTrainerLogin">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerLogin"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="TestClassTrainerInformation">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="TestClassEditTrainerProfile">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="TestClassTrainerLogout">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerLogout"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
